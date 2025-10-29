@@ -687,7 +687,7 @@ class Modules_WebsiteVirusCheck_Helper
      * @return mixed
      */
     static function getDomainReport($domainId) {
-        $report = json_decode(pm_Settings::get('domain_id_' . $domainId), true);
+        $report = json_decode(pm_Settings::get('domain_id_' . $domainId, ''), true);
         return $report;
     }
 
