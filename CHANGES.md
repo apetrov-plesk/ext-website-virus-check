@@ -1,3 +1,7 @@
+# 1.4.3 (3 Oct 2025)
+
+* [*] Updated the extension to be fully compatible with PHP 8.4.
+
 # 1.4.2 (6 May 2024)
 
 * [-] The "PHP Deprecated Construction: Creation of dynamic property Modules_WebsiteVirusCheck_PleskDomain" error no longer appears in /var/log/plesk/panel.log in Plesk for Linux and in %plesk_dir%\admin\logs\php_error.log in Plesk for Windows. (EXTPLESK-5512)
